@@ -1,33 +1,135 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Webpage</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Welcome to My Webpage</h1>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <main>
-      <h2>About Me</h2>
-      <p>Hi, my name is ashim and I'm a web developer. I love creating beautiful and functional websites that help people achieve their goals.</p>
-      <h2>My Projects</h2>
-      <ul>
-        <li><a href="#">Project 1</a></li>
-        <li><a href="#">Project 2</a></li>
-        <li><a href="#">Project 3</a></li>
-      </ul>
-    </main>
-    <footer>
-      <p>&copy; 2023 My Webpage. All rights reserved.</p>
-    </footer>
-  </body>
-</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="main_page.css">
+</head>
+<body>
+    <div class="main">
+        <!-- Header Section -->
+        <div class="item item1">
+            <header>
+                <div class="logo">
+                    <img src="https://via.placeholder.com/150x50.png?text=Company+Logo" alt="Company Logo">
+                </div>
+                <h1>Company Name</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </div>
+            </header>
+        </div>
 
+        <!-- Left Content Section -->
+        <div class="item item2">
+            <aside>
+                <h3>Latest News</h3>
+                <ul>
+                    <li><a href="#">New Service Launch</a></li>
+                    <li><a href="#">Company Expansion in Europe</a></li>
+                    <li><a href="#">Upcoming Webinar on Industry Trends</a></li>
+                </ul>
+            </aside>
+        </div>
+
+        <!-- Main Content Section -->
+        <div class="item item3">
+            <main>
+                <h2>Welcome to Our Website</h2>
+                <p>
+                    We are a leading company in providing top-notch solutions to our clients. Our team of professionals works diligently to ensure your success in the competitive market. We offer a wide range of services to meet your business needs.
+                </p>
+                <h3>Our Services</h3>
+                <p>Explore our premium services designed to help your business thrive:</p>
+                <ul>
+                    <li>Consulting</li>
+                    <li>Marketing Solutions</li>
+                    <li>Web Development</li>
+                    <li>Branding</li>
+                    <li>Customer Support</li>
+                </ul>
+                <img src="https://via.placeholder.com/800x400.png?text=Services+Image" alt="Services Image" class="responsive-img">
+            </main>
+        </div>
+
+        <!-- Right Content Section -->
+        <div class="item item4">
+            <section>
+                <h3>Why Choose Us?</h3>
+                <p>
+                    Our team has over 20 years of experience in providing the best solutions. We focus on building strong relationships with our clients and ensuring their goals are met effectively.
+                </p>
+                <h4>Client Testimonials</h4>
+                <blockquote>
+                    "Working with Company Name has been a game-changer for our business. Their expertise in the industry helped us grow rapidly." — John Doe, CEO, TechCorp
+                </blockquote>
+                <img src="https://via.placeholder.com/400x200.png?text=Client+Testimonial" alt="Testimonial Image" class="responsive-img">
+            </section>
+        </div>
+
+        <!-- Down Content Section -->
+        <div class="item item5">
+            <section>
+                <h3>Our Partners</h3>
+                <p>
+                    We have collaborated with industry leaders to provide the best products and services. Some of our key partners include:
+                </p>
+                <ul>
+                    <li>Company A</li>
+                    <li>Company B</li>
+                    <li>Company C</li>
+                    <li>Company D</li>
+                </ul>
+                <img src="https://via.placeholder.com/800x300.png?text=Our+Partners" alt="Our Partners Image" class="responsive-img">
+            </section>
+        </div>
+
+        <!-- Footer Content -->
+        <div class="item item6">
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-section contact">
+                        <h3>Contact Us</h3>
+                        <p><strong>Address:</strong> 123 Main St, Cityville, Country</p>
+                        <p><strong>Email:</strong> contact@company.com</p>
+                        <p><strong>Phone:</strong> +123 456 789</p>
+                        <p><strong>Fax:</strong> +123 456 788</p>
+                    </div>
+                    <div class="footer-section links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section social">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li><a href="#" class="social-icon">Facebook</a></li>
+                            <li><a href="#" class="social-icon">Twitter</a></li>
+                            <li><a href="#" class="social-icon">Instagram</a></li>
+                            <li><a href="#" class="social-icon">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Company Name. All rights reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
